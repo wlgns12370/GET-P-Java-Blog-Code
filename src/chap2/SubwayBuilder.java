@@ -1,7 +1,17 @@
 package chap2;
 
 public class SubwayBuilder {
+
+    /* 
+    불변 필드
+    */
+
+	// 써브웨이 주문 번호
     private Long id;
+
+    /* 
+	가변 필드
+    */
 
     // 메뉴 이름
     private String menu;
